@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right, #8ce287, #a8d168, #bfbf51, #d1ab46, #de9747, #e79848, #f0984a, #f9984c, #ffaf46, #ffc841, #ffe242, #fafd4b);
+    font-family: Comic Sans MS;   
+}
+
+#score {
+    font-size: 25px;
+    float: left;
+    margin-left: 75px;
+    color: lightcoral;
+}
+
+
+#time {
+    font-size: 25px;
+    float: right;
+    margin-right: 75px;
+    color: lightseagreen;
+}
+
+#original_sketch {
+    color: aqua;
+}
+
+#confidence {
+    color: lightgoldenrodyellow;
+}
+
+#your_sketch{
+    color: lightskyblue;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
